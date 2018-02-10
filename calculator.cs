@@ -278,5 +278,10 @@ namespace WindowsFormsApplication1
       Array.Clear(calcString, 0, calcString.Length);
       total = 0;
     }
-  }
+
+        private void button10_Click(object sender, EventArgs e)
+        {
+
+        }
+    }
 }
