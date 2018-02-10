@@ -249,7 +249,7 @@
             // 
             // buttonPercent
             // 
-            this.buttonPercent.Location = new System.Drawing.Point(206, 186);
+            this.buttonPercent.Location = new System.Drawing.Point(205, 231);
             this.buttonPercent.Name = "buttonPercent";
             this.buttonPercent.Size = new System.Drawing.Size(39, 39);
             this.buttonPercent.TabIndex = 18;
