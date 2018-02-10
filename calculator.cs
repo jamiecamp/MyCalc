@@ -279,7 +279,7 @@ namespace WindowsFormsApplication1
       total = 0;
     }
 
-        private void button10_Click(object sender, EventArgs e)
+        private void buttonPercent_Click(object sender, EventArgs e)
         {
 
         }
