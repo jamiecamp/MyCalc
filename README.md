@@ -1,2 +1,2 @@
 # MyCalc version 1.0
-Calculator app in C#
+Calculator app written in C#
