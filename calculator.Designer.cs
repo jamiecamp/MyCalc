@@ -47,6 +47,7 @@
             this.buttonEquals = new System.Windows.Forms.Button();
             this.buttonClear = new System.Windows.Forms.Button();
             this.buttonPercent = new System.Windows.Forms.Button();
+            this.button10 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // output
@@ -257,11 +258,21 @@
             this.buttonPercent.UseVisualStyleBackColor = true;
             this.buttonPercent.Click += new System.EventHandler(this.buttonPercent_Click);
             // 
+            // button10
+            // 
+            this.button10.Location = new System.Drawing.Point(205, 233);
+            this.button10.Name = "button10";
+            this.button10.Size = new System.Drawing.Size(38, 37);
+            this.button10.TabIndex = 19;
+            this.button10.Text = "SRT";
+            this.button10.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(267, 339);
+            this.Controls.Add(this.button10);
             this.Controls.Add(this.buttonPercent);
             this.Controls.Add(this.buttonClear);
             this.Controls.Add(this.buttonEquals);
@@ -309,6 +320,7 @@
         private System.Windows.Forms.Button buttonEquals;
         private System.Windows.Forms.Button buttonClear;
         private System.Windows.Forms.Button buttonPercent;
+        private System.Windows.Forms.Button button10;
     }
 }
 
